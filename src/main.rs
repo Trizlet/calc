@@ -9,7 +9,6 @@ fn main() {
     }
 
     let expression = args.join(" ").trim().to_string();
-    // println!("{}",expression);
 
     match meval::eval_str(expression){
         Ok(result)=>{
